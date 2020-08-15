@@ -1,0 +1,60 @@
+
+.Nav {
+  padding: 20px;
+  padding-bottom: 50px;
+}
+.car {
+  padding-top: 10px;
+}
+.header {
+  padding: 15px;
+  font-size: xx-large;
+  font-family: fantasy;
+  text-align: center;
+}
+.intro {
+  font-style: italic;
+  border: 2px solid black;
+}
+.logo {
+  /* position: absolute; */
+  /* float: left; */
+  border: 4px dotted rgba(70, 2, 2, 0.466);
+  max-width: 25%;
+  height: 130px;
+  top: 40px;
+}
+.footer{
+  position: relative;
+top:50px;
+  
+}
+.head{
+ 
+  color:white;
+  padding-left: 500px;
+  text-align: center;
+}
+
+a {
+  color: red !important;
+  text-decoration:none;
+
+}
+a:hover {
+  color:red !important;
+  text-decoration:none;
+
+}
+
+
+
+a{
+  cursor:pointer; 
+}
+.aaa{
+  text-align: center;
+  color: red;
+  margin-left: 500px;
+
+}
