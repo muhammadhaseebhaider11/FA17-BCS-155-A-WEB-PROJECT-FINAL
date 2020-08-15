@@ -1,0 +1,17 @@
+Steps to run project
+1) npm install in both (frontend + backend) folders.
+2) npm start both (frontend + backend) folders. 
+at first home page will  show just carousel because deals are not added, for that
+3)click on "register admin" button.
+4)provide number and password.
+5)now login as admin for that click on "admin login",
+6)use number and password that you used in registration.
+after that you will be viewing as admin view.
+7)click on "add deals" to add deal, click on "view deal" to view , click on "delete deals" to delete deals, click on view record to view cutomers.
+8)click on "sign out".
+now you are at customer end
+9)click on deals "add to bucket" you want to order. it will be added to your order.
+10)click on "view order" from navbar. toatal bill is showing there.
+11) click on order, add customer info, your info is recorded in database.
+
+ 
