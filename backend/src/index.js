@@ -35,10 +35,12 @@ app.get("/dish", async function (req, res) {
 app.delete("/dish", async function (req, res) {
   try {
     // res.send(req.body.name)
-   let data = await Dish.remove(req.body)
+   let data = await Dish.remove({name:req.body.name})
    res.send(data)
+   alert("deleted")
   } catch (error) {
     res.status(400).send(error.message)
+    alert("not found")
   }
 });
 app.patch("/dish/:id",async function (req, res) {
